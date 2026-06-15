@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MKMTech Hub - Professional Tech Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+html{scroll-behavior:smooth}
+body{background:#050816;color:#fff}
+nav{position:fixed;top:0;width:100%;background:rgba(0,0,0,.85);padding:15px 5%;display:flex;justify-content:space-between;z-index:1000}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{color:#fff;text-decoration:none}
+.logo{font-weight:800;color:#4da3ff}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:100px 10%;background:linear-gradient(135deg,#0b1e6b,#4b1f80,#050816)}
+.hero h1{font-size:4rem}
+.hero p{max-width:800px;margin:20px auto}
+.btn{background:#4da3ff;color:white;padding:14px 30px;border-radius:30px;text-decoration:none}
+section{padding:90px 7%}
+h2{text-align:center;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card,.faq-item,.detail{background:rgba(255,255,255,.06);padding:25px;border-radius:18px}
+.card:hover{transform:translateY(-5px)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.num{font-size:2rem;font-weight:bold;color:#4da3ff}
+.faq-question{cursor:pointer;font-weight:600}
+.faq-answer{display:none;margin-top:10px}
+footer{text-align:center;padding:25px;background:black}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:28px}
+@media(max-width:768px){.hero h1{font-size:2.5rem}.stats{grid-template-columns:1fr}nav{flex-direction:column;gap:10px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">MKMTech Hub</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Built To Keep You Connected</h1>
+<p>Whether you are lighting up a building with WiFi or launching your online presence, we deliver the complete tech stack—with the craftsmanship of people who actually care.</p>
+<a class="btn" href="#services">Explore Services</a>
+</div>
+</section>
+
+<section id="about">
+<h2>About MKMTech Hub</h2>
+<div class="detail">
+<p>MKMTech Hub specializes in hotspot WiFi systems, PPOE deployments, network management, web development, technology consulting and training. We help homes, businesses, schools and institutions stay connected with reliable technology solutions.</p>
+<br>
+<h3>Founder</h3>
+<p><strong>Kelvin Maitha</strong> – Founder & Lead Technology Consultant.</p>
+<p>Passionate technology professional specializing in network infrastructure, WiFi deployment, web development and digital transformation.</p>
+</div>
+</section>
+
+<section>
+<h2>Our Impact</h2>
+<div class="stats">
+<div class="card"><div class="num">50+</div><p>Networks Installed</p></div>
+<div class="card"><div class="num">100+</div><p>Happy Clients</p></div>
+<div class="card"><div class="num">24/7</div><p>Support</p></div>
+</div>
+</section>
+
+<section id="services">
+<h2>Services & Details</h2>
+<div class="grid">
+<div class="card"><h3>Hotspot WiFi Installation</h3><p>Apartments, hotels, schools, campuses and business premises.</p></div>
+<div class="card"><h3>PPOE Setup</h3><p>User authentication, vouchers, bandwidth management and billing systems.</p></div>
+<div class="card"><h3>Network Management</h3><p>Design, deployment, monitoring and troubleshooting.</p></div>
+<div class="card"><h3>Web Development</h3><p>Business websites, e-commerce stores and portfolios from KES 2,000.</p></div>
+<div class="card"><h3>Tech Consultation</h3><p>Professional guidance for technology investments and digital transformation.</p></div>
+<div class="card"><h3>Training</h3><p>Practical technology training from KES 2,500.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card"><h3>Apartment WiFi Deployment</h3><p>Installed managed hotspot network with customer authentication.</p></div>
+<div class="card"><h3>Business PPOE System</h3><p>Bandwidth management and subscription billing implementation.</p></div>
+<div class="card"><h3>Business Website Development</h3><p>Responsive website and online presence setup.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Testimonials</h2>
+<div class="grid">
+<div class="card"><p>"Fast and reliable WiFi."</p><strong>– Vallary</strong></div>
+<div class="card"><p>"Fast customer service and excellent support."</p><strong>– Ken</strong></div>
+</div>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<div class="faq-question">How long does installation take?</div>
+<div class="faq-answer">Most installations take between 1 and 3 days depending on project size.</div>
+</div><br>
+<div class="faq-item">
+<div class="faq-question">Do you offer support?</div>
+<div class="faq-answer">Yes, ongoing maintenance and technical support are available.</div>
+</div><br>
+<div class="faq-item">
+<div class="faq-question">Can you build online stores?</div>
+<div class="faq-answer">Yes, we develop e-commerce and business websites.</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="detail">
+<p><strong>Phone:</strong> 0791398996</p>
+<p><strong>WhatsApp:</strong> 0791398996</p>
+<p><strong>Email:</strong> mkmonlinecyber@gmail.com</p>
+<p><strong>Location:</strong> Eldoret & Online</p>
+<p><strong>Website:</strong> mkmtech.co.ke</p>
+</div>
+</section>
+
+<footer>© 2026 MKMTech Hub. All Rights Reserved.</footer>
+
+<a class="whatsapp" href="https://wa.me/254791398996">💬</a>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(q=>{
+ q.onclick=()=>{
+  const a=q.nextElementSibling;
+  a.style.display=a.style.display==='block'?'none':'block';
+ };
+});
+</script>
+</body>
+</html>
